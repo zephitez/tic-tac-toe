@@ -139,8 +139,6 @@ function tie() {
 }
 }
 
-
-
 function getBox(number) {
   var boxNum = document.getElementById('box' + number);
   return boxNum.src;
