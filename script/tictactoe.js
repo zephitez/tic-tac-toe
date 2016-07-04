@@ -78,7 +78,11 @@ function switchTurn() {
       if (winner(cutefont.imagex)) {
         setMessage('Congratulations! ' + player1 + ' Wins!');
         turn = 'end';
-      } else {
+      } else if (tie()){
+          setMessage('It\'s a Draw!');
+          turn = 'end';
+      }
+      else {
         turn = 'o';
       }
       break;
@@ -86,6 +90,9 @@ function switchTurn() {
       if (winner(cutefont.imageo)) {
         setMessage('Congratulations! ' + player2 + ' Wins!');
         turn = 'end';
+      } else if (tie()){
+          setMessage('It\'s a Draw!');
+          turn = 'end';
       } else {
         turn = 'x';
       }
@@ -124,12 +131,15 @@ function tie() {
   var allBox = [];
   for (var i = 1; i <= imgBox.length; i++) {
     if (getBox(i) != cutefont.empty) {
-      allBox.push();
+      allBox.push('1');
     }
   }
-    console.log(allBox);
-  return allBox;
+  if (allBox.length == 9) {
+  return true;
 }
+}
+
+
 
 function getBox(number) {
   var boxNum = document.getElementById('box' + number);
