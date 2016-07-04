@@ -1,0 +1,17 @@
+USER
+ 1. Click Start
+ 4. Click restart
+
+SYSTEM
+ 1. Initialise
+ 2. Assign X and O
+ 4. records input
+ 5. shows player's turn
+ 5. decides winner
+ 6. output winner or nobody win
+ 4. Refresh game
+
+
+Archive
+ 3. Choose to set 10 seconds timer challenge on
+ 2. Choose X || O

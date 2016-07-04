@@ -1,0 +1,57 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input {
+  margin: 15px;
+  background-color: rgb(0, 255, 255);;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border-radius: 20%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.input:hover {
+  background-color: grey;
+}
+
+.game {
+  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.78);;
+  height:390px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.status {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  background-color: rgba(1, 6, 6, 0.16);
+  margin-bottom: 20px;
+}
+
+
+.restart {
+  margin-top: 30px;
+  box-shadow: 4px 4px 7px #888888;
+  border-radius: 45%;
+  width: 130px;
+}
